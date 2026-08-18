@@ -12,9 +12,10 @@ npm run dev
 ## Checks
 
 ```bash
-npm run lint
-npm run build
+npm run gate
 ```
+
+Use the Node.js version declared in `.nvmrc` so local verification matches CI.
 
 ## Deployment
 
