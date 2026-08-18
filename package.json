@@ -11,7 +11,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "gate": "./scripts/gate.sh"
+    "gate": "npm audit --audit-level=moderate && npm run lint && npm run build"
   },
   "dependencies": {
     "react": "^19.2.0",
